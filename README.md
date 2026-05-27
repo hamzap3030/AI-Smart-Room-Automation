@@ -9,10 +9,10 @@
 
 | Name | Email |
 |------|---------|
-| Bhide Armaan Amit | armaanbhide13@gmail.com  |
-| Bhosale Harshwardhan Santosh | har.bho.rt23@dypatil.edu |
-| Devkar Siddharth Nitin | sid.dev.rt23@dypatil.edu |
-| Patel Hamza M. Zaid | hamzap3030@gmail.com |
+| Armaan Amit Bhide | armaanbhide13@gmail.com  |
+| Harshwardhan Santosh Bhosale | har.bho.rt23@dypatil.edu |
+| Siddharth Nitin Devkar | sid.dev.rt23@dypatil.edu |
+| Hamza M. Zaid Patel | hamzap3030@gmail.com |
 
 **Supervisor:** Dr. Gargi Phadke
 
