@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Bulb Control Dashboard</title>
+      <link rel="stylesheet" href="../static/style.css">
+    </head>
+    <body>
+      <h1>Classroom Monitor</h1>
+      <div class="video-container">
+        <img src="{{ url_for('video_feed') }}" width="720" height="480">
+      </div>
+      <div class="bulb-states">
+          <p>💡 Bulb 1: <span id="bulb1">OFF</span></p>
+          <p>💡 Bulb 2: <span id="bulb2">OFF</span></p>
+          <p>❄️ Fan: <span id="fan">OFF</span></p>
+          <p>🌡️ Temperature: <span id="temp">Value</span></p>
+      </div>
+
+      <script>
+        function updateBulbStatus() {
+          fetch('/status')
+            .then(response => response.json())
+            .then(data => {
+              document.getElementById('bulb1').textContent = data.bulb1 ? "ON" : "OFF";
+              document.getElementById('bulb2').textContent = data.bulb2 ? "ON" : "OFF";
+              document.getElementById('fan').textContent = data.fan ? "ON" : "OFF";
+              document.getElementById('temp').textContent = data.temperature;
+            });
+        }
+        setInterval(updateBulbStatus, 1000);
+        updateBulbStatus();
+      </script>
+    </body>
+</html>
