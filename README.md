@@ -1,11 +1,11 @@
-# 🏠 AI Smart Room Automation
+# AI Smart Room Automation
 
 > A Mini Project submitted for **Bachelor of Technology in Computer Science & Engineering (AIML)**  
 > Ramrao Adik Institute of Technology, D.Y. Patil Deemed to be University — April 2025
 
 ---
 
-## 👥 Team — Group 20
+## Team — Group 20
 
 | Name | Email |
 |------|---------|
@@ -18,7 +18,7 @@
 
 ---
 
-## 📌 About The Project
+## About The Project
 
 **AI Smart Room Automation** is an intelligent, energy-efficient room automation system that uses **computer vision (YOLOv8)** and **IoT (ESP32)** to automatically control room appliances like lights and fans based on real-time human presence detection.
 
@@ -26,19 +26,19 @@ The system divides the room into **left and right zones** — if a person is det
 
 ---
 
-## ✨ Features
+## Features
 
-- 🎥 **Real-time human detection** using YOLOv8 + OpenCV
-- 🔦 **Zone-based appliance control** (Left / Right / Both sides)
-- 🌡️ **Temperature-based fan control** via DHT11 sensor
-- 🌐 **Live web dashboard** with video feed and device status
-- 📡 **ESP32 IoT control** over local Wi-Fi using HTTP
-- ⚡ **Energy saving** — appliances turn OFF automatically when room is empty
-- 🧵 **Multi-threaded** — detection and HTTP requests run in parallel
+- **Real-time human detection** using YOLOv8 + OpenCV
+- **Zone-based appliance control** (Left / Right / Both sides)
+- **Temperature-based fan control** via DHT11 sensor
+- **Live web dashboard** with video feed and device status
+- **ESP32 IoT control** over local Wi-Fi using HTTP
+- **Energy saving** — appliances turn OFF automatically when room is empty
+- **Multi-threaded** — detection and HTTP requests run in parallel
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 AI-Smart-Room-Automation/
@@ -59,7 +59,7 @@ AI-Smart-Room-Automation/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Software
 | Tool | Purpose |
@@ -85,7 +85,7 @@ AI-Smart-Room-Automation/
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ```
 Camera → YOLOv8 detects person → Check zone (Left/Right)
@@ -105,7 +105,7 @@ DHT11 → Temperature reading → ESP32 sends to Flask → Fan logic applied
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 - Python 3.10+
@@ -117,7 +117,7 @@ DHT11 → Temperature reading → ESP32 sends to Flask → Fan logic applied
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/AI-Smart-Room-Automation.git
+git clone https://github.com/hamzap3030/AI-Smart-Room-Automation.git
 cd AI-Smart-Room-Automation
 ```
 
@@ -189,7 +189,7 @@ Open your browser and go to: `http://localhost:5000`
 
 ---
 
-## 📊 System States
+## System States
 
 | Case | Detection | Result |
 |------|-----------|--------|
@@ -201,7 +201,7 @@ Open your browser and go to: `http://localhost:5000`
 
 ---
 
-## 📷 Demo
+## Demo
 
 > Project tested in a real classroom environment at RAIT, Navi Mumbai.
 
@@ -211,7 +211,7 @@ Open your browser and go to: `http://localhost:5000`
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 
 - Multi-room support with multiple cameras
 - Mobile app for remote monitoring
@@ -221,13 +221,13 @@ Open your browser and go to: `http://localhost:5000`
 
 ---
 
-## 📄 License
+## License
 
 This project was developed for academic purposes at **Ramrao Adik Institute of Technology, DYPU**.  
 Feel free to use or build upon this work with proper credit.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 Special thanks to **Dr. Gargi Phadke** (Supervisor & Project Coordinator), **Dr. Sangita Chaudhari** (HoD), and **Dr. Mukesh Patil** (Principal) for their guidance and support throughout this project.
